@@ -1,0 +1,376 @@
+body {
+width: 1200px;
+height: 1500px;
+background: #3a3a3a;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 198px;
+    background: #515151;
+    border-bottom: 4px solid #202020;
+}
+
+#footer {
+    width: 100%;
+    height: 22px;
+    background: #202020;
+    position: absolute;
+    top: 1800px;
+    left: 0px;
+    bottom: 0px;
+}
+
+#nav {
+    width: 100%;
+    height: 60px;
+    background: #ffffff;
+    margin-top: 70px;
+}
+
+#logo {
+    width: 306px;
+    height: 207px;
+    position: absolute;
+    left: 50%;
+    margin-left: -170px;
+    top: -5px;
+    z-index: 2;
+}
+
+#yellow {
+    width: 100%;
+    height: 3px;
+    background: #fdc513;
+    margin-top: 5px;
+    position: absolute;
+    font-family: 'Franklin Gothic';
+}
+
+#blue {
+    width: 100%;
+    height: 3px;
+    background: #2aa1db;
+    margin-top: 34px;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+    list-style: none;
+  display: inline-block;
+}
+
+.nav li {
+  font-family: 'High tower text', sans-serif;
+  font-size: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #2aa1db;
+}
+
+.nav a:hover {
+  color: #fdc513;
+}
+
+.nav a.active {
+  color: #fdc513;
+}
+
+.home {
+    position: absolute;
+    top: 83px;
+    left: 275px;
+}
+
+.about {
+    position: absolute;
+    top: 83px;
+    left: 475px;
+}
+
+.beer {
+    position: absolute;
+    top: 83px;
+    left: 1125px;
+}
+
+.events {
+    position: absolute;
+    top: 83px;
+    left: 1325px;
+}
+
+/* Text */
+
+h1 {
+    color: #2aa1db;
+    position: relative;
+    margin-top: 13px;
+    padding-left: 22px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic';
+}
+
+h2 {
+    color: #2aa1db;
+    position: relative;
+    padding-top: 8px;
+    padding-left: 22px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic';
+}
+
+h3 {
+    color: #2aa1db;
+    position: relative;
+    top: -25px;
+    padding-left: 22px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic';
+}
+
+h4 {
+    color: #fdc513;
+    position: relative;
+    margin-top: -3px;
+    padding-left: 22px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic';
+}
+
+h5 {
+    color: #ffffff;
+    position: relative;
+    margin-top: -13px;
+    padding-left: 22px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    font-family: 'Franklin Gothic';
+}
+
+h6 {
+    color: #ffffff;
+    position: relative;
+    margin-top: -20px;
+    padding-left: 22px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic';
+}
+
+h7 {
+    color: #fdc513;
+    position: relative;
+    top: -40px;
+    padding-left: 22px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic';
+}
+
+h8 {
+    color: #ffffff;
+    position: relative;
+    top: -55px;
+    left: 22px;
+    font-size: 13px;
+    font-family: 'Franklin Gothic';
+}
+
+h9 {
+    color: #fdc513;
+    position: relative;
+    top: -50px;
+    padding-left: 22px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic';
+}
+
+h10 {
+    color: #ffffff;
+    position: relative;
+    top: -65px;
+    left: 22px;
+    font-size: 13px;
+    font-family: 'Franklin Gothic';
+}
+
+h11 {
+    color: #fdc513;
+    position: relative;
+    top: -60px;
+    padding-left: 22px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic';
+}
+
+h12 {
+    color: #ffffff;
+    position: relative;
+    top: -75px;
+    left: 22px;
+    font-size: 13px;
+    font-family: 'Franklin Gothic';
+}
+
+h13 {
+    color: #fdc513;
+    position: relative;
+    top: -70px;
+    padding-left: 22px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic';
+}
+
+h14 {
+    color: #ffffff;
+    position: relative;
+    top: -85px;
+    left: 22px;
+    font-size: 13px;
+    font-family: 'Franklin Gothic';
+}
+
+h15 {
+    color: #ffffff;
+    position: relative;
+    left: 360px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic';
+}
+
+/* Menu */
+
+#largeBox_1 {
+    width: 960px;
+    height: 437px;
+    background: #515151;
+    margin-top: 235px;
+    margin-left: 350px;
+}
+
+#bar_1 {
+    width: 830px;
+    height: 3px;
+    background: #fdc513;
+    position: absolute;
+    margin-top: 25px;
+    left: 469px;
+}
+
+#bar_2 {
+    width: 921px;
+    height: 3px;
+    background: #fdc513;
+    position: absolute;
+    margin-top: 412px;
+    left: 378px;
+}
+
+#tap {
+    width: 860px;
+    height: 344px;
+    margin-left: 175px;
+    margin-top: -17px;
+    position: relative;
+}
+
+/* Draft/Bottle List */
+
+.frame {
+    width: 960px;
+    height: 630px;
+}
+
+.b_left_2 {
+    width: 15px;
+    height: 625px;
+    background: #3a3a3a;
+    float: left;
+}
+
+.b_left {
+    width: 3px;
+    height: 625px;
+    background: #fdc513;
+    float: left;
+    z-index: 1;
+}
+
+.b_right_2 {
+    width: 15px;
+    height: 625px;
+    background: #3a3a3a;
+    float: right;
+}
+
+.b_right {
+    width: 3px;
+    height: 625px;
+    background: #fdc513;
+    float: right;
+}
+
+#smallBox_1 {
+    width: 960px;
+    height: 625px;
+    background: #515151;
+    margin-top: 34px;
+    margin-left: 350px;
+    z-index: 2;
+}
+
+.column {
+    width: 460px;
+    height: 625px;
+    float: left;
+}
+
+.column_2 {
+    width: 450px;
+    height: 625px;
+    float: left;
+    margin-top: 67px;
+}
+
+/* Locator */
+
+#largeBox_2{
+    width: 960px;
+    height: 400px;
+    background: #515151;
+    margin-top: 34px;
+    margin-left: 350px;
+}
+
+#bar_3 {
+    width: 803px;
+    height: 3px;
+    background: #fdc513;
+    position: absolute;
+    margin-top: 25px;
+    left: 496px;
+}
+
+#bar_4 {
+    width: 921px;
+    height: 3px;
+    background: #fdc513;
+    position: absolute;
+    margin-top: 375px;
+    left: 378px;
+}
+
+.column_3 {
+    width: 192px;
+    height: 360px;
+    float: left;
+}

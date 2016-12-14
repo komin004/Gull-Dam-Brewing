@@ -1,0 +1,230 @@
+body {
+width: 1500px;
+height: 768px;
+background: #3a3a3a;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 198px;
+}
+
+#footer {
+    width: 100%;
+    height: 22px;
+    background: #202020;
+    position: absolute;
+    top: 820px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 3;
+}
+
+#nav {
+    width: 100%;
+    height: 60px;
+    background: #ffffff;
+    margin-top: 70px;
+}
+
+#logo {
+    width: 306px;
+    height: 207px;
+    position: absolute;
+    left: 50%;
+    margin-left: -170px;
+    top: -5px;
+    z-index: 2;
+}
+
+#yellow {
+    width: 100%;
+    height: 3px;
+    background: #fdc513;
+    margin-top: 5px;
+    position: absolute;
+}
+
+#blue {
+    width: 100%;
+    height: 3px;
+    background: #2aa1db;
+    margin-top: 34px;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+    list-style: none;
+  display: inline-block;
+}
+
+.nav li {
+  font-family: 'High tower text', sans-serif;
+  font-size: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #2aa1db;
+}
+
+.nav a:hover {
+  color: #fdc513;
+}
+
+.nav a.active {
+  color: #fdc513;
+}
+
+.home {
+    position: absolute;
+    top: 83px;
+    left: 275px;
+}
+
+.about {
+    position: absolute;
+    top: 83px;
+    left: 475px;
+}
+
+.beer {
+    position: absolute;
+    top: 83px;
+    left: 1125px;
+}
+
+.events {
+    position: absolute;
+    top: 83px;
+    left: 1325px;
+}
+
+#cover {
+    width: 1719px;
+    height: 843px;
+    margin-left: -20px;
+    margin-top: -20px;
+    background: url("../images/1.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+/* Text */
+
+h1 {
+    color: #2aa1db;
+    position: relative;
+    top: 13px;
+    padding-left: 22px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic', sans-serif;
+}
+
+h2 {
+    color: #2aa1db;
+    position: relative;
+    padding-top: 8px;
+    padding-left: 22px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic', sans-serif;
+}
+
+h3 {
+    color: #2aa1db;
+    position: relative;
+    top: -25px;
+    padding-left: 22px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic', sans-serif;
+}
+
+h4 {
+    color: #fdc513;
+    position: relative;
+    margin-top: -3px;
+    padding-left: 22px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic', sans-serif;
+}
+
+h5 {
+    color: #ffffff;
+    position: relative;
+    margin-top: -13px;
+    padding-left: 22px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic', sans-serif;
+}
+
+h6 {
+    color: #3a3a3a;
+    position: relative;
+    padding-left: 22px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Book', sans-serif;
+}
+
+h15 {
+    color: #ffffff;
+    position: relative;
+    left: 360px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic';
+}
+
+/* Welcome to Gull Dam Brewing */
+
+.frame {
+    width: 302px;
+    height: 690px;
+    position: absolute;
+}
+
+.b_left_2 {
+    width: 3px;
+    height: 690px;
+    background: #fdc513;
+    float: left;
+}
+
+.b_left {
+    width: 15px;
+    height: 690px;
+    background: #ffffff;
+    float: left;
+    z-index: 1;
+}
+
+.b_right_2 {
+    width: 3px;
+    height: 690px;
+    background: #fdc513;
+    float: right;
+}
+
+.b_right {
+    width: 15px;
+    height: 690px;
+    background: #ffffff;
+    float: right;
+}
+
+#smallBox_1 {
+    width: 302px;
+    height: 690px;
+    background: #ffffff;
+    margin-top: -709px;
+    margin-left: 350px;
+    z-index: 1;
+    position: fixed;
+}
